@@ -12,9 +12,9 @@ def calculator(request):
                 result = num1 + num2
             elif operation == 'subtract':
                 result = num1 - num2
-            elif operation == 'multiply':
+            elif operation == 'mulitiply':
                 result = num1 * num2
-            elif operation == 'divide':
+            elif operation == 'devide':
                 if num2 != 0:
                     result = num1 / num2
                 else:
